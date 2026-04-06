@@ -1,0 +1,17 @@
+[
+  "cpu_percent",
+  "cpu_freq_mhz",
+  "ram_percent",
+  "loadavg_1m",
+  "disk_read_Bps",
+  "disk_write_Bps",
+  "net_tx_Bps",
+  "net_rx_Bps",
+  "disk_read_bytes_total",
+  "disk_write_bytes_total",
+  "net_tx_bytes_total",
+  "net_rx_bytes_total",
+  "ping_rtt_ms",
+  "ping_jitter_ms",
+  "ping_loss_pct"
+]
