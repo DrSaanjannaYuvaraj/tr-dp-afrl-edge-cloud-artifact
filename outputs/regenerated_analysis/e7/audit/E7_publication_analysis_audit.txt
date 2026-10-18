@@ -1,0 +1,26 @@
+E7 PUBLICATION ANALYSIS AUDIT
+================================================================================
+
+Source:
+/Users/sanjukarthick/Downloads/FGCS_GITHUB_EXISTING/results/frozen/e7_final
+
+Frozen JSON files: 45
+Strategies: fedavg, tl_ppo, tr_dp_afrl
+Conditions: none, cpu, network
+Seeds: 42,43,44,45,46
+Rounds/run: 300
+
+Windows:
+PRE      = R1-R100
+IMPAIR   = R101-R200
+RECOVERY = R201-R300
+
+ROBUSTNESS BASELINE:
+Each CPU/network run is compared against the matching strategy + seed NONE run over the same R101-R200 window.
+
+OUTPUTS:
+/Users/sanjukarthick/Downloads/FGCS_GITHUB_EXISTING/outputs/regenerated_analysis/e7/tables/E7_per_run_metrics.csv
+/Users/sanjukarthick/Downloads/FGCS_GITHUB_EXISTING/outputs/regenerated_analysis/e7/tables/E7_5seed_summary.csv
+/Users/sanjukarthick/Downloads/FGCS_GITHUB_EXISTING/outputs/regenerated_analysis/e7/tables/E7_robustness_summary.csv
+
+STATUS: PASS

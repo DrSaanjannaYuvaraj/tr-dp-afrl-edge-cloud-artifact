@@ -1,0 +1,36 @@
+E6A PUBLICATION ANALYSIS AUDIT
+========================================================================
+
+Source directory: /Users/sanjukarthick/Downloads/FGCS_GITHUB_EXISTING/results/frozen/e6a_physical
+Source result files: 15
+Physical client populations: N={5,8,10}
+Seeds: {42,43,44,45,46}
+Rounds per run: 300
+Steady-state window: rounds 251-300 inclusive
+Within-seed statistic: arithmetic mean over rounds 251-300
+Across-seed statistic: arithmetic mean +/- sample SD (statistics.stdev, n=5)
+Communication conversion: decimal MB=1e6 bytes, GB=1e9 bytes
+Full-run totals: final values of cumulative_wall_time_s and cumulative_communication_bytes
+
+VALIDATION
+------------------------------------------------------------------------
+PASS N=5 seed=42 results_tr_dp_afrl_E6A_N5_seed42.json
+PASS N=5 seed=43 results_tr_dp_afrl_E6A_N5_seed43.json
+PASS N=5 seed=44 results_tr_dp_afrl_E6A_N5_seed44.json
+PASS N=5 seed=45 results_tr_dp_afrl_E6A_N5_seed45.json
+PASS N=5 seed=46 results_tr_dp_afrl_E6A_N5_seed46.json
+PASS N=8 seed=42 results_tr_dp_afrl_E6A_N8_seed42.json
+PASS N=8 seed=43 results_tr_dp_afrl_E6A_N8_seed43.json
+PASS N=8 seed=44 results_tr_dp_afrl_E6A_N8_seed44.json
+PASS N=8 seed=45 results_tr_dp_afrl_E6A_N8_seed45.json
+PASS N=8 seed=46 results_tr_dp_afrl_E6A_N8_seed46.json
+PASS N=10 seed=42 results_tr_dp_afrl_E6A_N10_seed42.json
+PASS N=10 seed=43 results_tr_dp_afrl_E6A_N10_seed43.json
+PASS N=10 seed=44 results_tr_dp_afrl_E6A_N10_seed44.json
+PASS N=10 seed=45 results_tr_dp_afrl_E6A_N10_seed45.json
+PASS N=10 seed=46 results_tr_dp_afrl_E6A_N10_seed46.json
+
+PASS: exact 15-run source set verified
+PASS: all required series contain 300 values
+PASS: round sequence verified as 1..300
+PASS: E6A publication statistics generated without modifying source results

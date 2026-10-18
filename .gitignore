@@ -1,0 +1,31 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# macOS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary portability backups
+*.pre_portability_backup
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+
+# Manual experiment outputs
+outputs/manual_runs/
+
+# Local temporary files
+*.tmp
+*.swp
